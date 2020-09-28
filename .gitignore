@@ -1,0 +1,15 @@
+.dub
+docs.json
+__dummy.html
+docs/
+/uim-common
+uim-common.so
+uim-common.dylib
+uim-common.dll
+uim-common.a
+uim-common.lib
+uim-common-test-*
+*.exe
+*.o
+*.obj
+*.lst

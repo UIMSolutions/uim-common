@@ -1,0 +1,11 @@
+{
+	"authors": [ "UI Manufaktur Team" ],
+	"copyright": "Copyright © 2020, UIM Manufaktur",
+	"dependencies": {
+		"uim-core": "~>0.20.9",
+		"uim-oop": "~>0.20.9"
+	},
+	"description": "A minimal D application.",
+	"license": "proprietary",
+	"name": "uim-common"
+}
