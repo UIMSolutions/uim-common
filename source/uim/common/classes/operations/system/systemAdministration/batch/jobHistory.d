@@ -4,5 +4,6 @@ module uim.common.classes.operations.system.systemAdministration.batch.jobHistor
 import uim.common;
 
 class DCOMBatchJobHistoryEntity : DOOPEntityVersion {
-  this() { super(); }
+  this() { super(); this.pool = "BatchJobHistoryEntity".toLower; }
 }
+auto COMBatchJobHistoryEntity() { return new DCOMBatchJobHistoryEntity; }

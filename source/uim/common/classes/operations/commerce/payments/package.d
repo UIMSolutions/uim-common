@@ -1,4 +1,4 @@
-module uim.common.classes.operations.common;
+module uim.common.classes.operations.commerce.payments;
 
 @safe:
 import uim.common;

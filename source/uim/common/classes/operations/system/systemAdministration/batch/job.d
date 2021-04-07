@@ -4,5 +4,6 @@ module uim.common.classes.operations.system.systemAdministration.batch.job;
 import uim.common;
 
 class DCOMBatchJobEntity : DOOPEntityVersion {
-  this() { super(); }
+  this() { super(); this.pool = "BatchJobEntity".toLower; }
 }
+auto COMBatchJobEntity() { return new DCOMBatchJobEntity; }

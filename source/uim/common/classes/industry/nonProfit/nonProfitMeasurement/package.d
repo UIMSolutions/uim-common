@@ -1,4 +1,4 @@
-module uim.common.classes.operations.common;
+module uim.common.classes.industry.nonProfit.nonProfitMeasurement;
 
 @safe:
 import uim.common;

@@ -4,5 +4,6 @@ module uim.common.classes.operations.system.systemAdministration.batch.group;
 import uim.common;
 
 class DCOMBatchGroupEntity : DOOPEntityVersion {
-  this() { super(); }
+  this() { super(); this.pool = "BatchGroupEntity".toLower; }
 }
+auto COMBatchGroupEntity() { return new DCOMBatchGroupEntity; }
